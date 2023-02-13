@@ -57,7 +57,7 @@ let user_profile = {
     skillmessage: "My Programming Language Proficiency",
     education: [
       {
-        school: "St Paul's University - Kenya",
+        school: "St Paul's University - Kenya dssds",
         degree: "Diploma, Computer Science",
         description:
           "Along the way I learned fullstack Javascript developer with knowledge in Javascript, ReactJs, NodeJs",
@@ -77,5 +77,5 @@ let user_profile = {
 
 document.getElementById("name").innerHTML = user_profile.name;
 document.getElementById("bio").innerHTML = user_profile.bio;
-document.getElementById("name").innerHTML = user_profile.name;
-document.getElementById("name").innerHTML = user_profile.name;
+document.getElementById("education").innerHTML =
+  user_profile.resume.education[0].school;
