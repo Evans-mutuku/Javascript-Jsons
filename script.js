@@ -1,11 +1,11 @@
-const myObj = {
-  name: "Evans",
-  age: 30,
-  city: "New York",
-};
+// const myObj = {
+//   //   name: "Evans",
+//   age: 30,
+//   city: "New York",
+// };
 
-document.getElementById("demo").innerHTML =
-  myObj.name + "<br>" + "  City " + myObj.city;
+// document.getElementById("demo").innerHTML =
+//   myObj.name + "<br>" + "  City " + myObj.city;
 
 // creating user profile
 let user_profile = {
@@ -53,3 +53,8 @@ let user_profile = {
     ],
   },
 };
+
+document.getElementById("name").innerHTML = user_profile.name;
+document.getElementById("bio").innerHTML = user_profile.bio;
+document.getElementById("name").innerHTML = user_profile.name;
+document.getElementById("name").innerHTML = user_profile.name;
