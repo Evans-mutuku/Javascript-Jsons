@@ -21,18 +21,22 @@ let user_profile = {
     street: "Kenya",
     city: "Nairobi Kenya",
   },
-  social_media: [
+
+  social: [
     {
-      description: "twitter",
-      link: "https://twitter.com/digitalocean",
+      name: "facebook",
+      url: "https://www.facebook.com/evan.mutuku",
+      className: "fa fa-facebook",
     },
     {
-      description: "facebook",
-      link: "https://www.facebook.com/DigitalOceanCloudHosting",
+      name: "linkedin",
+      url: "https://www.linkedin.com/in/evans-mutuku-5407391b9",
+      className: "fa fa-linkedin",
     },
     {
-      description: "github",
-      link: "https://github.com/digitalocean",
+      name: "github",
+      url: "https://github.com/Evans-mutuku/",
+      className: "fa fa-github",
     },
   ],
 };
