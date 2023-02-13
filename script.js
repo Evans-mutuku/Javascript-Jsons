@@ -52,6 +52,27 @@ let user_profile = {
       },
     ],
   },
+
+  resume: {
+    skillmessage: "My Programming Language Proficiency",
+    education: [
+      {
+        school: "St Paul's University - Kenya",
+        degree: "Diploma, Computer Science",
+        description:
+          "Along the way I learned fullstack Javascript developer with knowledge in Javascript, ReactJs, NodeJs",
+      },
+    ],
+    work: [
+      {
+        company: "Freelancing",
+        title: "Creating websites and teaching code",
+        years: "Feb 2018 - Present",
+        description:
+          "Cloning all the apps possible. Cloning Amazon.com, G-Mail.com, LinkedIn, Twitter, Snapchat and many more... On the way to clone the world! Building websites for businesess, start-ups and teaching code.",
+      },
+    ],
+  },
 };
 
 document.getElementById("name").innerHTML = user_profile.name;
