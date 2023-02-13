@@ -39,4 +39,17 @@ let user_profile = {
       className: "fa fa-github",
     },
   ],
+
+  testimonials: {
+    testimonials: [
+      {
+        text: "Evans is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to me... I would definitely recommend",
+        user: "Douglas ",
+      },
+      {
+        text: "Learning with Evans has been AWESOME, he makes learning Javascript so easy and approachable, you'll finally feel like you know what's going on!",
+        user: "Emmaculate",
+      },
+    ],
+  },
 };
