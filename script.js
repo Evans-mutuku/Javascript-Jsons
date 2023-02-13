@@ -57,7 +57,7 @@ let user_profile = {
     skillmessage: "My Programming Language Proficiency",
     education: [
       {
-        school: "St Paul's University - Kenya dssds",
+        school: "St Paul's University - Kenya",
         degree: "Diploma, Computer Science",
         description:
           "Along the way I learned fullstack Javascript developer with knowledge in Javascript, ReactJs, NodeJs",
