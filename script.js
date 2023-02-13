@@ -9,7 +9,18 @@ document.getElementById("demo").innerHTML =
 
 // creating user profile
 let user_profile = {
-  username: "John Doe",
+  name: "John Doe",
+  occupation: "Web dev, instructor & mentor ",
+  description: "I eat, sleep and breathe React",
+  image: "profilepic.jpg",
+  bio: "Hi there! I am Evans! You might also know me as Javascript Developer. I've been programming for over 4 years now as a Full Stack developer. I've worked both with startups and individuals to help build & scale their businesses. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. Hence mentoring and teaching how to code. ",
+  contactmessage: "Get in touch with me and grow your skills and business!",
+  email: "evansnyamai98@gmail.com",
+  phone: "+254  -791486125",
+  address: {
+    street: "Kenya",
+    city: "Nairobi Kenya",
+  },
   social_media: [
     {
       description: "twitter",
